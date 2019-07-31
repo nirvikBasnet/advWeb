@@ -26,7 +26,7 @@ class Product extends Database{
         if($statement -> execute() ){
 
 
-            $result = $statement - get_result();
+            $result = $statement -> get_result();
 
             $product_array=array();
 
